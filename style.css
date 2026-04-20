@@ -64,3 +64,39 @@ header p {
     display: block;
     visibility: visible;
 }
+.navbar {
+    background-color: #2c2c2c;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover {
+    background-color: #007bff;
+    border-bottom: 3px solid #0056b3;
+    text-decoration: none;
+    color: white;
+}
