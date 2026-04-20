@@ -100,3 +100,6 @@ header p {
     text-decoration: none;
     color: white;
 }
+html {
+    scroll-behavior: smooth;
+}
