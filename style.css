@@ -162,3 +162,32 @@ fieldset {
     height: 200px;
     object-fit: contain;
 }
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: white;
+    border-left: 4px solid #007bff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: translateX(5px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    font-weight: bold;
+}
